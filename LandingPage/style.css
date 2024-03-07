@@ -1,0 +1,200 @@
+:root {
+    --blueDarkBackgroundColor: #1F2937;
+    --heroMainText: #f9faf8;/*extra-bold and 48px*/
+    --heroSecondaryTextHeaderLinks: #e5e7eb;/*18px*/
+    --heroLogoText: #f9faf8; /*24px*/
+    --buttonColor: #3882f6;
+    --informationHeaderText: #1f2937; /*extra-bold and 36px*/
+    --quoteSectionColor: #e5e7eb;
+    --quoteText: #1f2937; /*36px and light italic*/   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+body {
+    color: #262626;
+    background-color: #dddddd;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+button {
+    cursor: pointer;
+}
+
+.logo {
+    width: 100px;
+    background-color: #ddd;
+}
+.bmw-img {
+    border: 15px solid #ddd;
+    box-shadow: -5px -5px 10px #ffffff,
+     5px 5px 10px #696969;
+}
+.logo-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0;
+}
+.links {
+    display: flex;
+    gap: 60px;
+}
+.link {
+    font-size: 18px;
+    text-decoration: none;
+    color: #262626;
+    font-weight: 500;
+    transition: all 1s ease;
+}
+.link:hover {
+    transform: scale(1.2);
+    border-bottom: 3px solid #262626;
+}
+.text-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 50px;
+}
+.text {
+    width: 500px;
+}
+.title {
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.description {
+    font-size: 18px; 
+}
+.btn1 {
+    border: none;
+    padding: 10px 30px;
+    background-color: #dddddd;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: -5px -5px 10px #ffffff,
+     5px 5px 10px #696969;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #262626;
+}
+
+.main-container {
+    margin: 80px;
+    box-shadow: -5px -5px 10px #fff,
+    5px 5px 10px #696969;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+.title-2 {
+    font-size: 36px;
+    margin: 100px 0px 60px 0px;
+}
+.garage-container {
+    display: flex;
+    gap: 70px;
+}
+.bike {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: #262626;
+    padding: 10px 10px 20px 10px;
+    border-radius: 17px;
+    transition: transform 0.5s ease-in-out;
+}
+.bike:hover {
+    transform: scale(1.2);
+}
+.bike > img {
+    width: 250px;
+}
+.bike-description {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+    background-image: radial-gradient(circle, #afafaf,#ddd);
+    padding: 50px;
+}
+.quote-container {
+    font-size: 18px;
+    width: 800px;
+}
+.quote {
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 36px;
+}
+.author {
+    font-weight: 800;
+    text-align: end;
+}
+
+
+.section-3 {
+    width: 800px;
+    padding: 50px;
+    background-color: #262626;
+    border-radius: 18px;
+    margin-bottom: 150px;
+}
+.action-container {
+    display: flex;
+    justify-content: space-around;
+}
+.action-p {
+    color: #fff;
+}
+.p-1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.action-btn {
+    padding: 1px 40px;
+    background-color: transparent;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.footer-container {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #262626;
+    color: #fff;
+    font-size: 18px;
+}
